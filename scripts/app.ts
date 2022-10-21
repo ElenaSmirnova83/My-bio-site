@@ -3,6 +3,20 @@
 // AKA - Self Executing Function 
 (function()
 {
+    let mypara ="This is my homepage";
+    
+    document.querySelector(".container.homepage p").innerHTML = mypara;
+
+    let myhomepagenav = "Home page";
+    document.querySelector(".nav-link.homenav").innerHTML = myhomepagenav;
+
+
+   let mypic = "assets/image.jpeg";
+
+   $(".container.mypic").attr("src", mypic);
+
+
+
 
 
     // First method of using functions
@@ -10,15 +24,8 @@
     {
         console.log("App Started!");
 
-        // LoadData("GET", "./Data/contacts.json", function(XHR){
-        //     console.log(XHR);
-        // });
-
-        $.getJSON("./Data/contacts.json", function(DataSource){
-            console.log(DataSource.ContactList[0]);
-        });
+      
     }
-
 
     window.addEventListener("load", Start);
 
