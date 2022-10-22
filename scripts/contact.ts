@@ -1,4 +1,19 @@
-class Contact
+    let mycontactpagenav = "Contact page";
+    document.querySelector(".nav-link.contactnav").innerHTML = mycontactpagenav;
+
+    const mypara = p;
+
+    document.querySelector(".container.contactpage p").innerHTML = mypara;
+
+
+
+function setAction(form) {
+    form.action = "register.html";
+    alert(form.action);
+    return false;
+  }
+
+/**class Contact
  {      //private instance members (fields)
         private fullName: string;
         private contactNumber: string;
@@ -34,12 +49,7 @@ class Contact
         }
 
         //constructor
-        /**
-         * 
-         * @param fullName`
-         * @param contactNumber 
-         * @param emailAddress 
-         */
+     
         constructor(fullName: string = "unknown name", contactNumber: string = "no contact number", emailAddress: string = "unknown email")
         {
             this.FullName = fullName;
@@ -48,10 +58,7 @@ class Contact
         }
 
         //public methods
-        /**
-         * this method overrides the built-in tostring method for the contact class
-         * @returns 
-         */
+       /** 
         public toString(): string
         {
             let outputString = "";
@@ -64,4 +71,4 @@ class Contact
         //private methods
 
 
-}
+    }*/

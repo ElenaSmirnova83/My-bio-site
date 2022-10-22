@@ -11,15 +11,15 @@
         <!--CSS section-->
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">My logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link homenav" href="index.html"><span class="sr-only">(current)</span></a>
+                  <a class="nav-link homenav" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link aboutme" href="aboutme.html">About me</a>
@@ -36,8 +36,25 @@
               </ul>
             </div>
           </nav>
-        <div class="container contact">
+        <div class="contact">
             <h1>Contact Me</h1>
+            <p>"Realizing your Potential is a challenge 
+              We all try to be professional and know our services and products better than anyone 
+              You need a tool to present your Business to the rest of the world.
+              Your website is more than just a formality. It is an extension of your business, and often the first, and possibly only the one way that customer interacts with your business. "</p>
+            <form onsubmit="return setAction(this)">
+              <div>
+                <label>Name:</label>
+                <input id="name" name="name" type="text">
+              </div>
+              <div>
+                <label>Email:</label>
+                <input id="email" name="email" type="email">
+              </div>
+              <div>
+                <input id="submit" type="submit">
+              </div>
+            </form>
 
 
         </div>
